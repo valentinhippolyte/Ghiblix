@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #a0c4ff;
+
+  --color-primary-50: #f6f9ff;
+  --color-primary-100: #ecf3ff;
+  --color-primary-200: #d9e7ff;
+  --color-primary-300: #c6dcff;
+  --color-primary-400: #b3d0ff;
+  --color-primary-500: #a0c4ff;
+  --color-primary-600: #809dcc;
+  --color-primary-700: #607699;
+  --color-primary-800: #404e66;
+  --color-primary-900: #202733;
+
+  --color-secondary: #ffafcc;
+
+  --color-secondary-50: #fff7fa;
+  --color-secondary-100: #ffeff5;
+  --color-secondary-200: #ffdfeb;
+  --color-secondary-300: #ffcfe0;
+  --color-secondary-400: #ffbfd6;
+  --color-secondary-500: #ffafcc;
+  --color-secondary-600: #cc8ca3;
+  --color-secondary-700: #99697a;
+  --color-secondary-800: #664652;
+  --color-secondary-900: #332329;
+
+  --color-accent: #eddea4;
+
+  --color-accent-50: #fdfcf6;
+  --color-accent-100: #fbf8ed;
+  --color-accent-200: #f8f2db;
+  --color-accent-300: #f4ebc8;
+  --color-accent-400: #f1e5b6;
+  --color-accent-500: #eddea4;
+  --color-accent-600: #beb283;
+  --color-accent-700: #8e8562;
+  --color-accent-800: #5f5942;
+  --color-accent-900: #2f2c21;
+
+  --color-neutral: #403233;
+
+  --color-neutral-50: #ecebeb;
+  --color-neutral-100: #d9d6d6;
+  --color-neutral-200: #b3adad;
+  --color-neutral-300: #8c8485;
+  --color-neutral-400: #665b5c;
+  --color-neutral-500: #403233;
+  --color-neutral-600: #332829;
+  --color-neutral-700: #261e1f;
+  --color-neutral-800: #1a1414;
+  --color-neutral-900: #0d0a0a;
+}
+
+.btn {
+  background: var(--color-secondary);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: var(--color-secondary-600);
+  color: var(--color-neutral-50);
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 
+h1 (text-primary-800) : Bleu foncé pour donner une présence forte.
+h2 (text-primary-700) : Un peu plus clair pour garder de la cohérence.
+h3 (text-accent-600) : Touche chaleureuse, inspirée du jaune pastel.
+p text-ghibli-neutral-700
+
+button: 
+bg (bg-secondary-500) : Rose pastel doux
+Text (text-neutral-900) : Gris foncé pour un bon contraste
+Hover (bg-secondary-700 text-neutral-50) :
+
+Liens & Menus
+Couleur normale (text-primary-600) → Un bleu doux.
+Hover (text-primary-800 underline) → Plus foncé et souligné pour un bon feedback.
+*/
